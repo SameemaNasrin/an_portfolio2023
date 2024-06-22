@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
+
+:root {
+    --border-color: #1E1539;
+    --nav-hover-background-color: rgba(197, 186, 242, 0.12);
+    --nav-hover-text-color: rgba(197, 186, 242, 1);
+    --font-color: #000000;
+    --grey-font-color: #333333;
+    --light-grey-font-color: #828282;
+    --active-font-color: #2F80ED;
+    --tag-font-color: #607B96;
+    --font-family: 'Nunito Sans', sans-serif;
+    --header-font-color: #D3830C;
+    --case-study-card-border: #F2F2F2;
+    --case-study-card-background: rgba(255, 255, 255, 0.4);
+    --nav-background: rgba(255, 255, 255, 0.9);
+    --about-me-background: rgba(255, 255, 255, 10);
+    --grey-border: #E0E0E0;
+    --quote-background-color: rgba(33, 150, 83, 0.08);
+    --quote-color: rgba(33, 150, 83, 1);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.spacer {
+    width: 2vw;
+    height: 5vh;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #fff;
+    color: white;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+.spacer {
+    flex: 1;
+}
+
+body {
+    background-image: url("assets/Base.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

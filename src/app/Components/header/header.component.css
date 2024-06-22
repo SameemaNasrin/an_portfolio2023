@@ -1,0 +1,43 @@
+.mat-toolbar {
+    font-size: 0.8rem;
+    height: fit-content;
+    background-color: var(--nav-background);
+    position: fixed;
+    z-index: 99;
+    overflow: hidden;
+}
+
+#logo {
+    max-height: 45px;
+    position: absolute;
+    top: 0;
+    left: 5vw;
+}
+
+.nav-link {
+    padding: 4vh 3vw;
+    font-weight: 400;
+}
+
+.resume {
+    /* padding: 4vh 2vw; */
+    border: 1px solid var(--font-color);
+    border-radius: 50px;
+    font-weight: 400;
+    margin-right: 2vw;
+}
+
+.resume:hover {
+    color: var(--active-font-color);
+    border-color: var(--active-font-color);
+}
+
+.active {
+    /* background-image: linear-gradient(to top, rgb(254, 165, 95, 0.15), rgb(254, 165, 95, 0)); */
+    color: var(--active-font-color) !important;
+}
+
+/* .nav-link:hover{
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-text-color);
+} */

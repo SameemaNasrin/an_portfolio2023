@@ -1,0 +1,53 @@
+h1{
+    color:var(--font-color);
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: bold;   
+    font-size: 7rem;
+    line-height: 6rem;
+}
+
+p, pre{
+    color:var(--grey-font-color);
+    text-align: center;
+    font-family: var(--font-family);
+}
+
+p{
+    font-size: 2rem;
+}
+
+pre{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+div{
+    height: fit-content;
+    width: 100vw;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#user-interface-blue{
+    position: absolute;
+    right: 0;
+}
+
+#user-interface-blue, #user-interface-orange{
+    width: 20vh;
+    margin: 2vh 2vw;
+    /* animation: move 5s linear 2s infinite alternate; */
+}
+
+/* @keyframes move {
+    from {
+        width: 20vh;
+    }
+    to {
+        width: 30vh;
+    }
+} */

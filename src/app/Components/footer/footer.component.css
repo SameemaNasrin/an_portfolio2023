@@ -1,0 +1,53 @@
+.nav-link {
+    padding: 2vh 3vw;
+    border-radius: 0;
+    height: max-content;
+}
+
+
+mat-toolbar {
+    z-index: 100;
+    position: fixed;
+    bottom: 0;
+    /* font-size: 0.8rem; */
+    height: fit-content;
+    background-color: var(--background-color);
+    padding: 0 10vw;
+}
+
+#copywrite {
+    /* padding: 2vh 3vw 2vh 1vw; */
+    border-radius: 0;
+    color: #FFFFFF;
+    font-weight: lighter;
+}
+
+#self-link {
+    font-weight: lighter;
+    color: #C9877B;
+}
+
+
+.social-link-hover {
+    display: none;
+}
+
+
+.social-link {
+    display: block;
+}
+
+.nav-link:hover {
+    .social-link-hover {
+        display: block;
+    }
+
+    .social-link {
+        display: none;
+    }
+}
+
+/* #self-link, #copywrite{
+    display: block;
+    border: 2px solid red;
+} */
